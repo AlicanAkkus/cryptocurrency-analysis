@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.arslanyakup.dto.CryptoCurrency;
-import com.arslanyakup.util.CoinMarketCapEndpointUri;
+import com.arslanyakup.constant.CoinMarketCapEndpointUri;
 import com.arslanyakup.util.CryptoCurrencyServiceUtil;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
